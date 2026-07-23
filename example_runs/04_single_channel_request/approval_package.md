@@ -1,8 +1,8 @@
 # Approval Package -- 04_single_channel_request
 
-- **Run ID:** a4a4553d
-- **Started:** 2026-07-22T18:03:53.852334+00:00
-- **Finished:** 2026-07-22T18:04:00.655103+00:00
+- **Run ID:** 790824c0
+- **Started:** 2026-07-23T16:59:41.507705+00:00
+- **Finished:** 2026-07-23T16:59:48.770874+00:00
 - **Model:** claude-haiku-4-5-20251001
 
 ## 1. Original Request (verbatim)
@@ -20,8 +20,8 @@
 ```json
 {
   "campaign_name": "Trial Extension Announcement",
-  "objective": "Prevent confused churn from trials expiring during the billing system migration",
-  "audience": "All active trial accounts that signed up in the last 30 days",
+  "objective": "Prevent trial account churn caused by trial expirations coinciding with a billing system migration",
+  "audience": "Active trial accounts that signed up in the last 30 days",
   "key_message": "Your trial is extended two extra weeks at no cost \u2014 no action needed on your part",
   "channels": [
     "email"
@@ -44,24 +44,26 @@
 **Final draft:**
 
 ```
-Subject: Your trial is extended two extra weeks at no cost
+Subject: Your trial just got two extra weeks—free
 
-Preview text: No action needed from you — here's what's happening
+Preview text: We've extended your trial. No action needed.
 
 Body:
-We're upgrading our billing system, and we wanted to make sure this didn't interrupt your trial experience. Your trial is extended two extra weeks at no cost — no action needed on your part.
+Your trial account has been automatically extended by two extra weeks at no cost.
 
-You'll continue to have full access to all features during this time. When your extended trial ends, we'll send you a reminder before any changes take effect.
+We're making this change to ensure a smooth experience during a system update on our end. You don't need to do anything—your extension is already active.
 
-If you have questions about your account or the extension, our support team is here to help.
+Continue exploring Northbridge as usual. When your extended trial ends, we'll let you know what happens next.
 
-CTA: Learn more about your account
+Questions? We're here to help.
+
+CTA: Learn more about your trial
 ```
 
 **Review history:**
 
 - Attempt 1: **pass**
-  - Note: Excellent execution. The draft is clear, reassuring, and directly restates the key message. Voice is consistently "we/you," reading level is simple, and all tone directives (reassuring, simple) are met. No banned phrases, no exclamation points, and urgency is framed factually without pressure language. The subject line doubles as a preview of the main message, which is appropriate for email. No disclaimer is required because no specific security, compliance, certification, uptime, or SLA figures are mentioned.
+  - Note: Draft is clear, reassuring, and meets reading-level expectations. Voice is appropriately we/you. No banned words, no exclamation points, no fear-based urgency, no unqualified claims, and no missing disclaimers (security/compliance/SLA references are absent, so no disclaimer required). The key message is communicated near-verbatim in the opening sentence and reinforced throughout.
 
 ## 4. Flags
 
@@ -70,7 +72,7 @@ No flags -- every channel passed review within one retry.
 ## 5. Run Metadata
 
 - Model: claude-haiku-4-5-20251001
-- Intake duration: 1.94s
-- Total duration: 6.80s
+- Intake duration: 2.33s
+- Total duration: 7.27s
 - Retry counts:
   - email: 0

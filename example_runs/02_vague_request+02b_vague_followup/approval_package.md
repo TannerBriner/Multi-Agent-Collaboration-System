@@ -1,8 +1,8 @@
 # Approval Package -- 02_vague_request+02b_vague_followup
 
-- **Run ID:** 06645d2b
-- **Started:** 2026-07-22T18:03:24.491475+00:00
-- **Finished:** 2026-07-22T18:03:35.172488+00:00
+- **Run ID:** 1935fac0
+- **Started:** 2026-07-23T16:59:11.345495+00:00
+- **Finished:** 2026-07-23T16:59:21.135430+00:00
 - **Model:** claude-haiku-4-5-20251001
 
 ## 1. Original Request (verbatim)
@@ -29,9 +29,9 @@
 
 ```json
 {
-  "campaign_name": "New Integrations Adoption",
-  "objective": "Increase adoption of the new Slack and Google Calendar integrations among existing customers who have not yet connected either integration",
-  "audience": "Existing customers \u2014 day-to-day board users (not admins) who haven't connected an integration yet",
+  "campaign_name": "Integrations Adoption",
+  "objective": "Increase adoption of the new Slack and Google Calendar integrations among existing customers who haven't yet connected either one",
+  "audience": "Existing customers who are day-to-day board users (not admins) and haven't connected the Slack or Google Calendar integrations",
   "key_message": "Your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update",
   "channels": [
     "email",
@@ -57,24 +57,22 @@
 ```
 Subject: Your Slack and calendar updates, right on your board
 
-Preview text: Stop toggling between three apps to stay in sync.
+Preview text: Stop checking three places for the same update.
 
 Body:
-Your team's updates are scattered across Slack, Google Calendar, and Northbridge. That means context-switching every time something changes.
+Your Slack and calendar updates can show up directly on your Northbridge board — no more checking three places for the same update.
 
-With our new integrations, Slack and calendar updates show up directly on your Northbridge board — no more checking three places for the same update. You see what matters, when it matters, without leaving your workflow.
+We've connected Slack and Google Calendar to your board so information flows where you're already working. See calendar invites, meeting reminders, and Slack messages without switching apps.
 
-It takes two minutes to connect. Your calendar events and Slack messages flow straight into your board, keeping everyone aligned in one place.
+It takes just a few clicks to turn on. No setup headaches, no disruption to your current workflow.
 
-Stop the context-switching. Connect your integrations today.
-
-CTA: Connect Slack and Google Calendar
+CTA: Connect your integrations now
 ```
 
 **Review history:**
 
 - Attempt 1: **pass**
-  - Note: Strong draft. The key message is delivered verbatim near the middle ("Slack and calendar updates show up directly on your Northbridge board — no more checking three places for the same update"). Voice is confident, plain-language, and practical throughout. No banned words, no exclamation points, no fear-based urgency, no unqualified claims. The preview text uses "Stop toggling" rather than pressure language. Reading level is appropriate (short sentences, clear structure). All brand rules met.
+  - Note: Well-written, conversational email that hits the brief's key message directly in the subject and opening line. Voice is consistent with "we/you" framing (Northbridge = "we," customer = "you"). Plain language throughout—no jargon, no banned words, no exclamation points, no fear-based urgency. The copy is clear and actionable. Reading level is appropriate (short sentences, common vocabulary). The preview text is direct and benefit-focused.
 
 ### social
 
@@ -85,13 +83,13 @@ CTA: Connect Slack and Google Calendar
 **Final draft:**
 
 ```
-Your Slack and calendar updates show up directly on your Northbridge board—no more checking three places for the same update. #Northbridge #Integrations
+Your Slack and calendar updates show up directly on your Northbridge board — no more checking three places for the same update. #Integrations #Productivity
 ```
 
 **Review history:**
 
 - Attempt 1: **pass**
-  - Note: Draft is concise, reads at appropriate level, and matches the brief's practical tone. No banned words, no exclamation points, no urgency/fear language, no competitor disparagement, and no specific compliance claims requiring disclaimers. Suitable for social posting.
+  - Note: This is a clean, concise social post that hits the key message exactly and adheres to all brand rules. The language is plain and practical (no jargon, no banned words), no exclamation points, no urgency/fear framing, and reading level is accessible. Well done.
 
 ## 4. Flags
 
@@ -100,8 +98,8 @@ No flags -- every channel passed review within one retry.
 ## 5. Run Metadata
 
 - Model: claude-haiku-4-5-20251001
-- Intake duration: 2.05s
-- Total duration: 10.69s
+- Intake duration: 2.31s
+- Total duration: 9.78s
 - Retry counts:
   - email: 0
   - social: 0

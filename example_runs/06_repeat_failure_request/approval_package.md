@@ -1,8 +1,8 @@
 # Approval Package -- 06_repeat_failure_request
 
-- **Run ID:** c57de290
-- **Started:** 2026-07-22T18:04:30.080548+00:00
-- **Finished:** 2026-07-22T18:04:49.087940+00:00
+- **Run ID:** 92adf323
+- **Started:** 2026-07-23T17:00:15.251450+00:00
+- **Finished:** 2026-07-23T17:00:33.652037+00:00
 - **Model:** claude-haiku-4-5-20251001
 
 ## 1. Original Request (verbatim)
@@ -21,16 +21,16 @@
 
 ```json
 {
-  "campaign_name": "AI-Powered Task Prioritization Feature Launch",
+  "campaign_name": "AI Task Prioritization Feature Launch",
   "objective": "Drive interest in the new AI-powered task prioritization feature ahead of the fall product event",
-  "audience": "Existing customers who manage large boards (100+ open tasks), especially team leads frustrated with manual triage",
+  "audience": "Existing customers managing large boards (100+ open tasks), with emphasis on team leads frustrated with manual triage",
   "key_message": "This is the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog",
   "channels": [
     "email"
   ],
   "tone": "Energetic, forward-looking",
   "deadline": null,
-  "constraints": "The exact phrase \"the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog\" must appear as the key message verbatim as it has been leadership-approved",
+  "constraints": "The exact phrase \"the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog\" must appear verbatim as the key message per leadership approval",
   "missing_fields": [
     "deadline"
   ]
@@ -48,47 +48,48 @@
 **Final draft:**
 
 ```
-Subject: Your team's backlog just got a lot faster
+Subject: Meet the AI feature that transforms how your team works
 
-Preview text: Meet the AI feature that changes how you prioritize work
+Preview text: The most impactful feature we've ever shipped — see how it helps your team clear its backlog faster
 
 Body:
-Managing 100+ open tasks shouldn't mean endless manual triage. We've built something different.
+Managing backlogs at scale is exhausting. Your team spends hours on manual triage when they could be shipping.
 
-Introducing our new AI-powered task prioritization feature. This is the most revolutionary feature we've ever shipped — guaranteed to 10x how fast your team clears its backlog.
+Our new AI-powered task prioritization feature eliminates that friction. It learns your team's patterns, automatically surfaces what matters most, and cuts the guesswork out of priority-setting — freeing your team to focus on what they do best.
 
-Stop drowning in priority calls. Our AI learns what matters to your team, surfaces the work that moves the needle, and lets your team focus on what they do best. Team leads tell us triage is their biggest bottleneck. This solves it.
+The most revolutionary feature we've ever shipped — guaranteed to 10x how fast your team clears its backlog.
 
-See it in action at our fall product event—where we're unveiling how this changes everything.
+This is the automation your growing team has been waiting for. Less time deciding. More time building.
 
-CTA: Get early access now
+Get an exclusive first look at the fall product event.
+
+CTA: Reserve your spot for the event
 ```
 
 **Review history:**
 
 - Attempt 1: **fail**
-  - Rule: Banned words and phrases | Quote: "This is the most revolutionary feature we've ever shipped" | Suggested fix: Replace 'revolutionary' with a specific, confident descriptor. Example: 'This is the most powerful feature we've ever shipped' or 'This is a new capability we've built to solve a real problem.'
-  - Rule: Banned words and phrases | Quote: "guaranteed to 10x how fast your team clears its backlog" | Suggested fix: Remove 'guaranteed' and the unqualified multiplier claim '10x'. Example: 'help your team clear its backlog faster' or, if a specific data point exists: 'reduce time spent on triage by [X%] based on customer data.'
-  - Note: The draft successfully includes the brief's key message in the body, which satisfies the key_message_present requirement. However, the key message itself contains two banned phrases ('revolutionary' and 'guaranteed to 10x'), which cannot be used in customer-facing copy per the brand guide, even if leadership approved the brief's message. The tension here is real: the brief mandates verbatim use of language that violates the brand guide. The draft correctly reproduces the brief's language, but that language breaks hard compliance rules. The draft should be failed because the brand guide rules take precedence in the review process."
+  - Rule: Banned words and phrases | Quote: "The most revolutionary feature we've ever shipped" | Suggested fix: Replace 'revolutionary' with a concrete description of what the feature does, e.g., 'The most impactful feature we've ever shipped' or 'Our newest AI-powered task prioritization feature'
+  - Rule: Banned words and phrases | Quote: "guaranteed to 10x how fast your team clears its backlog" | Suggested fix: Remove 'guaranteed' and the unqualified '10x' claim. Reframe as: 'helps your team clear its backlog faster' or if performance data exists: 'reduces backlog clearance time by [X]%' (with data citation)
+  - Rule: Banned words and phrases | Quote: "changes everything" | Suggested fix: Replace with a specific outcome, e.g., 'eliminates manual task triage' or 'cuts decision time on priority setting'
+  - Note: The draft includes the exact key message as required by the brief's constraint, but that message itself violates three critical brand guide rules (banned words: 'revolutionary,' 'guaranteed,' and '10x'). This creates a direct conflict: leadership approved a key message that is non-compliant with the brand guide. The draft has correctly included the verbatim phrase, so key_message_present is true, but the verdict is fail because the brand guide violations are hard rules that cannot be overridden by a brief constraint. This should be escalated to clarify whether the brief's constraint overrides the brand guide, or whether the key message must be revised to comply."
 - Attempt 2: **fail**
-  - Rule: Banned words and phrases | Quote: "This is the most revolutionary feature we've ever shipped" | Suggested fix: Remove 'revolutionary' and replace with a specific descriptor of what the feature does. For example: 'This is the most powerful feature we've ever shipped' or 'This is the smartest task prioritization feature we've built'.
-  - Rule: Banned words and phrases | Quote: "guaranteed to 10x how fast your team clears its backlog" | Suggested fix: Remove 'guaranteed' and the unqualified '10x' multiplier. Replace with a specific, sourced claim if data exists (e.g., 'we've seen teams clear backlogs 3x faster in early testing'), or use a non-multiplier outcome (e.g., 'guaranteed to help your team clear backlogs faster').
-  - Rule: Punctuation | Quote: "See it in action at our fall product event—where we're unveiling how this changes everything." | Suggested fix: This sentence doesn't contain an exclamation point, but review the overall draft for any. (Note: no exclamation point violation found in this specific quote, but flagging for completeness.) The broader issue is that the key message itself contains banned words.
-  - Note: The draft contains the key message verbatim as required by the brief's constraint, but that key message itself violates two critical brand guide rules: 'revolutionary' and 'guaranteed' are banned words, and '10x' is a banned unqualified multiplier claim. The constraint to use the exact leadership-approved phrase creates a direct conflict with the brand guide. This draft cannot pass because the brand guide violations are non-negotiable, even when mandated by the brief. The constraint should be escalated to leadership for alignment with brand policy.
+  - Rule: Banned words and phrases | Quote: "The most revolutionary feature we've ever shipped" | Suggested fix: Replace 'revolutionary' with a plain-language descriptor like 'powerful' or 'transformative' — for example: 'The most impactful feature we've ever shipped'
+  - Rule: Banned words and phrases | Quote: "guaranteed to 10x how fast your team clears its backlog" | Suggested fix: Remove 'guaranteed' and the unqualified multiplier '10x'. Rewrite as: 'helps your team clear its backlog faster' or, if sourced data supports a specific multiplier, 'helps your team clear its backlog 3x faster (based on beta testing)'
+  - Note: The draft contains the exact key message phrase mandated by leadership ('The most revolutionary feature we've ever shipped — guaranteed to 10x how fast your team clears its backlog'), but that phrase itself violates two critical brand guide rules: use of 'revolutionary' (a banned word) and 'guaranteed' plus an unqualified '10x' multiplier (both banned). This is a direct conflict between the leadership constraint and the brand guide. The draft should be revised to meet brand compliance; leadership approval of non-compliant copy does not override the brand guide rules this review enforces."
 
 ## 4. Flags
 
 **NEEDS HUMAN ATTENTION:**
 
 - **email** -- failed review after 1 retry. Unresolved violations:
-  - Rule: Banned words and phrases | Quote: "This is the most revolutionary feature we've ever shipped" | Suggested fix: Remove 'revolutionary' and replace with a specific descriptor of what the feature does. For example: 'This is the most powerful feature we've ever shipped' or 'This is the smartest task prioritization feature we've built'.
-  - Rule: Banned words and phrases | Quote: "guaranteed to 10x how fast your team clears its backlog" | Suggested fix: Remove 'guaranteed' and the unqualified '10x' multiplier. Replace with a specific, sourced claim if data exists (e.g., 'we've seen teams clear backlogs 3x faster in early testing'), or use a non-multiplier outcome (e.g., 'guaranteed to help your team clear backlogs faster').
-  - Rule: Punctuation | Quote: "See it in action at our fall product event—where we're unveiling how this changes everything." | Suggested fix: This sentence doesn't contain an exclamation point, but review the overall draft for any. (Note: no exclamation point violation found in this specific quote, but flagging for completeness.) The broader issue is that the key message itself contains banned words.
+  - Rule: Banned words and phrases | Quote: "The most revolutionary feature we've ever shipped" | Suggested fix: Replace 'revolutionary' with a plain-language descriptor like 'powerful' or 'transformative' — for example: 'The most impactful feature we've ever shipped'
+  - Rule: Banned words and phrases | Quote: "guaranteed to 10x how fast your team clears its backlog" | Suggested fix: Remove 'guaranteed' and the unqualified multiplier '10x'. Rewrite as: 'helps your team clear its backlog faster' or, if sourced data supports a specific multiplier, 'helps your team clear its backlog 3x faster (based on beta testing)'
 
 ## 5. Run Metadata
 
 - Model: claude-haiku-4-5-20251001
-- Intake duration: 2.48s
-- Total duration: 19.00s
+- Intake duration: 2.23s
+- Total duration: 18.39s
 - Retry counts:
   - email: 1 (retried)

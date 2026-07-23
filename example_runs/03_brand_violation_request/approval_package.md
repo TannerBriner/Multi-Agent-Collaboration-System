@@ -1,8 +1,8 @@
 # Approval Package -- 03_brand_violation_request
 
-- **Run ID:** 627926a5
-- **Started:** 2026-07-22T18:03:35.178790+00:00
-- **Finished:** 2026-07-22T18:03:53.845815+00:00
+- **Run ID:** 27dae3de
+- **Started:** 2026-07-23T16:59:21.141410+00:00
+- **Finished:** 2026-07-23T16:59:41.501927+00:00
 - **Model:** claude-haiku-4-5-20251001
 
 ## 1. Original Request (verbatim)
@@ -18,16 +18,16 @@
 
 ```json
 {
-  "campaign_name": "Workflow Automation Feature Launch",
-  "objective": "Drive demo requests for Workflow Automation feature before Q4 pipeline review",
-  "audience": "Prospective customers evaluating Northbridge against competing tools during their buying cycle",
+  "campaign_name": "Workflow Automation Feature Announcement",
+  "objective": "Drive demo requests for the Workflow Automation feature before Q4 pipeline review",
+  "audience": "Prospective customers evaluating Northbridge against competitor tools during their buying cycle",
   "key_message": "Workflow Automation clears manual busywork off your team's plate so people can focus on higher-value work",
   "channels": [
     "email",
     "social"
   ],
-  "deadline": "Q4 pipeline review",
-  "tone": "bold, energetic",
+  "tone": "Bold, energetic, high-impact",
+  "deadline": "Before Q4 pipeline review",
   "constraints": null,
   "missing_fields": []
 }
@@ -44,16 +44,18 @@
 **Final draft:**
 
 ```
-Subject: See workflow automation in action
+Subject: Workflow Automation clears your team's plate
 
-Preview text: Free your team from manual work. Request a demo.
+Preview text: Stop spending hours on manual busywork. See what's possible when your people focus on higher-value work.
 
 Body:
-Your team spends hours on repetitive tasks that don't move the needle. Workflow Automation clears manual busywork off your team's plate so people can focus on higher-value work—the stuff that actually drives results.
+Your team spends hours on repetitive tasks—data entry, status updates, approval loops. Work that matters gets pushed down the priority list.
 
-Imagine your best people doing their best work instead of drowning in admin. That's what Workflow Automation delivers. Watch bottlenecks disappear. See productivity surge. Let your team do what they were hired to do.
+Workflow Automation changes that. It handles the manual busywork automatically, freeing your people to focus on what actually moves the needle for your business.
 
-Ready to see how it works?
+Watch your team reclaim time. See projects move faster. Experience the difference when repetitive work stops eating your day.
+
+Ready to see it in action? We'll walk you through how Workflow Automation transforms your operation.
 
 CTA: Request a demo
 ```
@@ -61,13 +63,12 @@ CTA: Request a demo
 **Review history:**
 
 - Attempt 1: **fail**
-  - Rule: Banned words and phrases | Quote: "changes the game" | Suggested fix: Replace with a plain-language description of the outcome, e.g., 'See how Workflow Automation frees your team from manual work.'
-  - Rule: Urgency and fear-based language | Quote: "Your competition isn't waiting. Neither should you." | Suggested fix: Remove this line entirely, or replace with a factual statement about the demo availability, e.g., 'Request a demo to see how it works.'
-  - Note: The subject line lacks an exclamation point (good), and the key message is stated verbatim in the body copy. However, the draft contains two clear rule violations. The tone is energetic and bold as requested, but pushes into fear-based urgency and banned phrasing that conflict with the brand guide."
+  - Rule: Punctuation | Quote: "Stop wasting hours on manual work. Start here." | Suggested fix: Remove the period after 'here' or reframe as 'Stop wasting hours on manual work—start here' (em dash). Subject lines should not end with punctuation that could read as emphatic.
+  - Rule: Urgency and fear-based language | Quote: "Your team is drowning in repetitive tasks." | Suggested fix: Reframe to neutral observation: 'Your team spends hours on repetitive tasks like data entry, status updates, and approval loops.' This describes the problem without fear-based framing.
+  - Note: The draft communicates the key message clearly and maintains plain language throughout. The tone is energetic without resorting to banned words. However, two rule violations prevent a pass: the subject line punctuation and the fear-based 'drowning' language. Reading level is appropriate (8th grade or simpler)."
 - Attempt 2: **fail**
-  - Rule: Banned words and phrases | Quote: "See productivity surge" | Suggested fix: Replace with a concrete, outcome-focused phrase. Example: 'See your team complete more in less time' or 'Watch your team move faster.'
-  - Rule: Urgency and fear-based language | Quote: "drowning in admin" | Suggested fix: Replace with neutral language. Example: 'spending too much time on admin' or 'bogged down in admin tasks.'
-  - Note: The draft captures the key message well and maintains a bold, energetic tone. The reading level is accessible. However, 'surge' is a borderline intensity word that, while not explicitly banned, skews toward hype; 'drowning' is fear-based language that violates the urgency rule. The phrase 'actually drives results' leans slightly toward jargon but is recoverable in revision."
+  - Rule: Punctuation | Quote: "Watch your team reclaim time. See projects move faster. Experience the difference when repetitive work stops eating your day." | Suggested fix: Remove the periods at the end of the second and third sentences in this paragraph to avoid the staccato rhythm, or rework as longer, connected sentences. If keeping short sentences, ensure none end with implied urgency. The issue here is the exclamatory rhythm without exclamation points creating artificial emphasis. Rework as: 'Watch your team reclaim time and see projects move faster. Experience the difference when repetitive work stops eating your day.'
+  - Note: The draft communicates the key message clearly and avoids banned words, jargon, and fear-based language. The reading level is appropriate. However, there is a stylistic violation in the punctuation rule — the short, punchy sentences in the third paragraph ("Watch your team reclaim time. See projects move faster. Experience the difference...") create an exclamatory rhythm that, while not literally using exclamation points, violates the spirit of the no-exclamation-point rule by mimicking that staccato, high-impact style through punctuation alone. This reads as artificial emphasis that conflicts with the "confident and specific, not hype-driven" voice directive.
 
 ### social
 
@@ -78,27 +79,26 @@ CTA: Request a demo
 **Final draft:**
 
 ```
-Stop manual busywork. Workflow Automation frees your team to focus on what actually matters—higher-value work. See it in action. #WorkflowAutomation #Northbridge
+Stop manual busywork. Workflow Automation frees your team to focus on what actually matters—higher-value work that drives results. See it in action. #WorkflowAutomation #Northbridge
 ```
 
 **Review history:**
 
 - Attempt 1: **pass**
-  - Note: Draft is concise and clean. The language is plain and direct ("manual busywork," "focus on what actually matters"). No banned words, no exclamation points, no fear-based urgency, no unqualified claims. The key message is communicated clearly: Workflow Automation removes manual work so teams can focus on higher-value work. Tone is energetic without hyperbole. Suitable for social channels.
+  - Note: Strong, direct social post. Tone is energetic and confident without hype language. Reading level is appropriate. No banned words, no exclamation points, no fear-based urgency framing. The key message—that Workflow Automation removes manual work so teams can focus on higher-value work—comes through clearly in the opening and central claim.
 
 ## 4. Flags
 
 **NEEDS HUMAN ATTENTION:**
 
 - **email** -- failed review after 1 retry. Unresolved violations:
-  - Rule: Banned words and phrases | Quote: "See productivity surge" | Suggested fix: Replace with a concrete, outcome-focused phrase. Example: 'See your team complete more in less time' or 'Watch your team move faster.'
-  - Rule: Urgency and fear-based language | Quote: "drowning in admin" | Suggested fix: Replace with neutral language. Example: 'spending too much time on admin' or 'bogged down in admin tasks.'
+  - Rule: Punctuation | Quote: "Watch your team reclaim time. See projects move faster. Experience the difference when repetitive work stops eating your day." | Suggested fix: Remove the periods at the end of the second and third sentences in this paragraph to avoid the staccato rhythm, or rework as longer, connected sentences. If keeping short sentences, ensure none end with implied urgency. The issue here is the exclamatory rhythm without exclamation points creating artificial emphasis. Rework as: 'Watch your team reclaim time and see projects move faster. Experience the difference when repetitive work stops eating your day.'
 
 ## 5. Run Metadata
 
 - Model: claude-haiku-4-5-20251001
-- Intake duration: 2.06s
-- Total duration: 18.67s
+- Intake duration: 2.11s
+- Total duration: 20.36s
 - Retry counts:
   - email: 1 (retried)
   - social: 0
