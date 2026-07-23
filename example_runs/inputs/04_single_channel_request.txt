@@ -1,0 +1,7 @@
+We need an email only — no social, no intranet needed — announcing a two-week extension
+of our current trial period for accounts that signed up in the last 30 days, due to a
+billing system migration. Objective: prevent confused churn from trials expiring mid-
+migration. Audience: all active trial accounts started in the last 30 days. Key message:
+your trial is extended two extra weeks at no cost — no action needed on your part.
+Deadline: needs to go out by July 20. Tone: reassuring, simple. Constraint: this is
+time-sensitive, legal wants it factually precise, no promotional language.

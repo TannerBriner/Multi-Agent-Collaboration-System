@@ -1,0 +1,9 @@
+We need content across email and intranet about our recently completed SOC 2 Type II
+certification. Objective: reassure enterprise prospects and existing customers evaluating
+our security posture, since this has come up repeatedly in sales calls this quarter.
+Audience: enterprise prospects currently in security review, plus existing customers
+whose security teams have asked about it. Key message: Northbridge is now SOC 2 Type II
+certified, confirming our data handling practices meet enterprise security standards.
+Deadline: rolling, no hard deadline, get to it in the next two weeks. Tone: confident,
+factual, not celebratory. Constraint: legal wants no specific claims beyond what the
+audit actually covers.

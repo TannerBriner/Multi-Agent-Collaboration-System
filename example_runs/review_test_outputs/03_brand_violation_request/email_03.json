@@ -1,0 +1,43 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: Free your team from busywork\u2014unlock higher-value work\nPreview text: Workflow Automation clears manual tasks so your people can focus on what matters\n\nBody:\nYour team spends hours on repetitive, manual work that doesn't move the needle. Workflow Automation changes that.\n\nBy automating routine tasks, you clear manual busywork off your team's plate so people can focus on higher-value work\u2014the kind that drives real results for your business.\n\nImagine what your team could accomplish with those hours back. Strategic projects. Client relationships. Innovation.\n\nSee how Workflow Automation works and how it fits your workflow.\n\nCTA: Request a demo",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong draft that nails the key message and brand voice. The copy is direct, confident, and benefit-focused without hype. Reading level is accessible. The subject line is punchy without an exclamation point (appropriate for the bold, energetic tone). The preview text mirrors the key message verbatim from the brief. No banned words, no fear-based urgency, and no compliance disclaimers are triggered (no security, SLA, or certification claims made). The \"we/you\" voice is present in the body (\"you clear,\" \"your team,\" etc.). Solid execution."
+  },
+  "retried": true,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: Stop wasting time on busywork. Start automating.\n\nPreview text: Your team deserves better than manual data entry and repetitive tasks.\n\nBody:\nWorkflow Automation clears manual busywork off your team's plate so people can focus on higher-value work.\n\nThink about what your best people spend their day on. If it's repetitive tasks and data entry, that's a problem\u2014and it's fixable.\n\nOur Workflow Automation feature handles the grunt work automatically. Your team moves faster. They do more meaningful work. And you actually see the results in output and morale.\n\nYou're already evaluating solutions. See how automation can transform what your team accomplishes.\n\nCTA: Request a demo",
+      "review": {
+        "verdict": "fail",
+        "key_message_present": true,
+        "violations": [
+          {
+            "rule": "Punctuation",
+            "quote": "Stop wasting time on busywork. Start automating.",
+            "suggested_fix": "Remove the period after 'automating' or rephrase to avoid the imperative tone that reads as urgent. Example: 'Stop wasting time on busywork\u2014start automating' or simply use as a statement without the call-to-action punctuation pattern."
+          },
+          {
+            "rule": "Urgency and fear-based language",
+            "quote": "Stop wasting time on busywork.",
+            "suggested_fix": "Reframe to focus on the benefit rather than the problem/waste. Example: 'Workflow Automation frees your team from busywork' or 'Let your team focus on what matters: higher-value work.'"
+          }
+        ],
+        "notes": "The draft communicates the key message clearly in the body copy and maintains a confident tone overall. However, the subject line leans heavily into problem/waste framing (\"Stop wasting time,\" \"busywork\") which borders on fear-based urgency, and the punctuation pattern of the subject line reads imperatively. The reading level is accessible and appropriate. Consider tightening the subject line to lead with the positive outcome rather than the negative problem.\""
+      }
+    },
+    {
+      "draft": "Subject: Free your team from busywork\u2014unlock higher-value work\nPreview text: Workflow Automation clears manual tasks so your people can focus on what matters\n\nBody:\nYour team spends hours on repetitive, manual work that doesn't move the needle. Workflow Automation changes that.\n\nBy automating routine tasks, you clear manual busywork off your team's plate so people can focus on higher-value work\u2014the kind that drives real results for your business.\n\nImagine what your team could accomplish with those hours back. Strategic projects. Client relationships. Innovation.\n\nSee how Workflow Automation works and how it fits your workflow.\n\nCTA: Request a demo",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong draft that nails the key message and brand voice. The copy is direct, confident, and benefit-focused without hype. Reading level is accessible. The subject line is punchy without an exclamation point (appropriate for the bold, energetic tone). The preview text mirrors the key message verbatim from the brief. No banned words, no fear-based urgency, and no compliance disclaimers are triggered (no security, SLA, or certification claims made). The \"we/you\" voice is present in the body (\"you clear,\" \"your team,\" etc.). Solid execution."
+      }
+    }
+  ]
+}

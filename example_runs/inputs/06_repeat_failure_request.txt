@@ -1,0 +1,9 @@
+We need an email announcing our new AI-powered task prioritization feature. Objective:
+drive interest in the feature ahead of our fall product event. Audience: existing
+customers who manage large boards (100+ open tasks), especially team leads frustrated
+with manual triage. Channels: email only. Tone: energetic, forward-looking. Key message:
+this is the most revolutionary feature we've ever shipped — guaranteed to 10x how fast
+your team clears its backlog. Constraint: marketing insists the exact phrase "the most
+revolutionary feature we've ever shipped — guaranteed to 10x how fast your team clears
+its backlog" must appear as the key message verbatim since leadership already approved
+that wording.

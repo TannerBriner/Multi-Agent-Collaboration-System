@@ -1,0 +1,23 @@
+{
+  "channel": "social",
+  "final_draft": "Stop manual busywork. Workflow Automation frees your team to focus on what actually matters\u2014higher-value work. See it in action. #WorkflowAutomation #ProductivityGains",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong, concise draft that meets brand standards. The message directly mirrors the brief's key_message (\"Workflow Automation clears manual busywork off your team's plate so people can focus on higher-value work\"). Copy uses plain language, avoids all banned words, contains no exclamation points, and maintains a confident tone without hype or fear-based urgency. No security/compliance claims are made, so the trust disclaimer is not required. The hashtags are appropriate for social context and add to the energetic tone. Reading level is accessible."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Stop manual busywork. Workflow Automation frees your team to focus on what actually matters\u2014higher-value work. See it in action. #WorkflowAutomation #ProductivityGains",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong, concise draft that meets brand standards. The message directly mirrors the brief's key_message (\"Workflow Automation clears manual busywork off your team's plate so people can focus on higher-value work\"). Copy uses plain language, avoids all banned words, contains no exclamation points, and maintains a confident tone without hype or fear-based urgency. No security/compliance claims are made, so the trust disclaimer is not required. The hashtags are appropriate for social context and add to the energetic tone. Reading level is accessible."
+      }
+    }
+  ]
+}

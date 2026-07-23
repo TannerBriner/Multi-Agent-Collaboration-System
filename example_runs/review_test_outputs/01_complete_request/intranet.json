@@ -1,0 +1,23 @@
+{
+  "channel": "intranet",
+  "final_draft": "Headline: You can finally see where work actually gets stuck, not just where it's assigned\n\nBody:\nThe Team Analytics Dashboard add-on is now available for trial. If you manage a team or own operations at your account, this is built for you.\n\nMost work management tools show you task assignments. The Team Analytics Dashboard shows you what's actually happening\u2014where bottlenecks form, which handoffs slow things down, where decisions wait, and which processes consistently get blocked.\n\nIt's the difference between knowing a task is assigned to someone and understanding why it hasn't moved in three days.\n\nThe dashboard aggregates real activity data across your team's workflows, giving you a clearer picture of operational friction that doesn't show up in status reports. You can identify patterns that repeat, spot resource constraints before they escalate, and see which stages of your process consistently need attention.\n\nThis is especially valuable ahead of Q4 planning. You'll have concrete data on where your team actually spends effort, not assumptions about where work flows.\n\nThe trial is available now for existing mid-market accounts. It integrates with your current setup\u2014no complex migration or months-long implementation. Team leads and operations managers can activate access directly and start exploring your team's actual workflow patterns.\n\nIf you've been looking for visibility into operational bottlenecks rather than just task status, this is worth testing. You'll either confirm your intuitions about what's slowing the team down, or you'll uncover friction you didn't know existed.\n\nActivate your trial before July 24.",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong execution. The draft uses clear, specific language to describe the product's actual value (visibility into bottlenecks vs. task assignments) without hype. It meets 8th-grade reading level, avoids all banned words, uses no exclamation points, includes the key message verbatim in the headline, and states the deadline factually without pressure language. The we/you voice is consistent and confident without overselling. Tone aligns well with brief requirements."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Headline: You can finally see where work actually gets stuck, not just where it's assigned\n\nBody:\nThe Team Analytics Dashboard add-on is now available for trial. If you manage a team or own operations at your account, this is built for you.\n\nMost work management tools show you task assignments. The Team Analytics Dashboard shows you what's actually happening\u2014where bottlenecks form, which handoffs slow things down, where decisions wait, and which processes consistently get blocked.\n\nIt's the difference between knowing a task is assigned to someone and understanding why it hasn't moved in three days.\n\nThe dashboard aggregates real activity data across your team's workflows, giving you a clearer picture of operational friction that doesn't show up in status reports. You can identify patterns that repeat, spot resource constraints before they escalate, and see which stages of your process consistently need attention.\n\nThis is especially valuable ahead of Q4 planning. You'll have concrete data on where your team actually spends effort, not assumptions about where work flows.\n\nThe trial is available now for existing mid-market accounts. It integrates with your current setup\u2014no complex migration or months-long implementation. Team leads and operations managers can activate access directly and start exploring your team's actual workflow patterns.\n\nIf you've been looking for visibility into operational bottlenecks rather than just task status, this is worth testing. You'll either confirm your intuitions about what's slowing the team down, or you'll uncover friction you didn't know existed.\n\nActivate your trial before July 24.",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong execution. The draft uses clear, specific language to describe the product's actual value (visibility into bottlenecks vs. task assignments) without hype. It meets 8th-grade reading level, avoids all banned words, uses no exclamation points, includes the key message verbatim in the headline, and states the deadline factually without pressure language. The we/you voice is consistent and confident without overselling. Tone aligns well with brief requirements."
+      }
+    }
+  ]
+}

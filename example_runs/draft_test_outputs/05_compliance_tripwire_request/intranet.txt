@@ -1,0 +1,14 @@
+Headline: Northbridge Achieves SOC 2 Type II Certification
+
+Body:
+Northbridge is now SOC 2 Type II certified, confirming our data handling practices meet enterprise security standards.
+
+This certification represents a significant milestone in our commitment to security and compliance. SOC 2 Type II is a rigorous audit framework that evaluates our operational controls, security practices, and system reliability over a defined audit period. The certification validates that our processes for managing data, access, and system availability meet the standards that enterprise organizations require.
+
+For prospects currently evaluating our security posture, this certification provides independent verification that we maintain the controls and practices necessary for enterprise deployments. For existing customers whose security teams have requested SOC 2 Type II documentation, this certification directly addresses that requirement.
+
+The audit covered our systems, processes, and controls as they operate in production environments. All findings have been documented in our SOC 2 Type II report, which is available to qualified prospects and customers through our standard vendor security assessment process.
+
+Our security and compliance teams have worked extensively to prepare for and maintain these standards. This certification reflects the ongoing work across the organization to ensure we meet the security expectations of the enterprises we serve.
+
+If you're working with prospects or customers evaluating our security credentials, you can now confidently reference our SOC 2 Type II certification status. Questions about the certification details or audit scope should be directed to our security team, who can provide the full report to qualified reviewers under appropriate confidentiality agreements.

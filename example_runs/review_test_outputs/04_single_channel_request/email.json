@@ -1,0 +1,38 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: Your trial is extended two extra weeks \u2014 no action needed\n\nPreview text: We're extending your trial at no cost during our system update.\n\nBody:\nWe're updating our billing system and want to make sure your trial experience stays uninterrupted.\n\nHere's the good news: **Your trial is extended two extra weeks at no cost \u2014 no action needed on your part.**\n\nYou don't have to do anything. Your account will continue working exactly as it does now. The extension automatically applies, and you'll have extra time to explore Northbridge without any interruption.\n\nIf you have questions about your account or the extension, we're here to help.\n\nCTA: Learn more about your trial extension",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Excellent execution. The draft mirrors the key message verbatim in the subject and body, uses reassuring plain language consistent with the tone, avoids all banned terms, contains no exclamation points, and makes no unqualified claims. The CTA is appropriately low-pressure. Reading level is simple and direct (short sentences, common words). No security/compliance certifications are mentioned, so the disclaimer is not required here."
+  },
+  "retried": true,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: Your trial is extended two extra weeks\u2014at no cost\n\nPreview text: No action needed. We've got you covered during our system update.\n\nBody:\nWe're upgrading our billing system and want to make sure your trial experience stays seamless.\n\nHere's the good news: Your trial is extended two extra weeks at no cost \u2014 no action needed on your part.\n\nYou'll continue to access all features during this time. When your extended trial ends, we'll send you a reminder about next steps.\n\nIf you have questions, our support team is here to help.\n\nCTA: Learn more about what's changing",
+      "review": {
+        "verdict": "fail",
+        "key_message_present": true,
+        "violations": [
+          {
+            "rule": "Banned words and phrases",
+            "quote": "want to make sure your trial experience stays seamless",
+            "suggested_fix": "Replace 'seamless' with a plain-language alternative like 'uninterrupted' or 'smooth.' For example: 'want to make sure your trial experience stays uninterrupted.'"
+          }
+        ],
+        "notes": "The draft is otherwise well-written and on-brand. It hits the key message exactly, uses reassuring we/you voice, avoids fear-based urgency framing, and maintains a clear, simple reading level. The CTA is appropriately low-pressure. The 'seamless' violation is the only rule break."
+      }
+    },
+    {
+      "draft": "Subject: Your trial is extended two extra weeks \u2014 no action needed\n\nPreview text: We're extending your trial at no cost during our system update.\n\nBody:\nWe're updating our billing system and want to make sure your trial experience stays uninterrupted.\n\nHere's the good news: **Your trial is extended two extra weeks at no cost \u2014 no action needed on your part.**\n\nYou don't have to do anything. Your account will continue working exactly as it does now. The extension automatically applies, and you'll have extra time to explore Northbridge without any interruption.\n\nIf you have questions about your account or the extension, we're here to help.\n\nCTA: Learn more about your trial extension",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Excellent execution. The draft mirrors the key message verbatim in the subject and body, uses reassuring plain language consistent with the tone, avoids all banned terms, contains no exclamation points, and makes no unqualified claims. The CTA is appropriately low-pressure. Reading level is simple and direct (short sentences, common words). No security/compliance certifications are mentioned, so the disclaimer is not required here."
+      }
+    }
+  ]
+}

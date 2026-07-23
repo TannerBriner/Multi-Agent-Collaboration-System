@@ -1,0 +1,19 @@
+{
+  "outcome": "brief",
+  "brief": {
+    "campaign_name": "Workflow Automation Launch",
+    "objective": "Drive demo requests for the Workflow Automation feature before Q4 pipeline review",
+    "audience": "Prospective customers actively evaluating tools during their buying cycle",
+    "key_message": "Workflow Automation clears manual busywork off your team's plate so people can focus on higher-value work",
+    "channels": [
+      "email",
+      "social"
+    ],
+    "deadline": "Q4 pipeline review",
+    "tone": "Bold, energetic",
+    "constraints": null,
+    "missing_fields": [
+      "deadline"
+    ]
+  }
+}

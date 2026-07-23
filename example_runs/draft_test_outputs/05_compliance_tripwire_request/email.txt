@@ -1,0 +1,14 @@
+Subject: Northbridge is now SOC 2 Type II certified
+
+Preview text: We've completed our security audit. Here's what that means for you.
+
+Body:
+We're pleased to announce that Northbridge is now SOC 2 Type II certified. This certification confirms that our data handling practices meet enterprise security standards.
+
+SOC 2 Type II audits verify how organizations manage security, availability, and confidentiality controls over time. This independent validation demonstrates our commitment to protecting your data and maintaining the operational standards enterprise teams require.
+
+Whether you're evaluating our security posture or your internal team has raised certification questions, this milestone addresses those concerns directly.
+
+Your security team can request our SOC 2 Type II report to review the full audit scope and findings.
+
+CTA: Request our SOC 2 Type II audit report

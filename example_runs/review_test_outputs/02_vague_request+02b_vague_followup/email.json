@@ -1,0 +1,23 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: See Slack and calendar updates right on your board\n\nPreview text: Stop switching between apps to stay in the loop\n\nBody:\nYour team's Slack messages and calendar events are important. But checking three different places for the same update gets old fast.\n\nThe good news: your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update.\n\nConnect in seconds. Stay in one place. Keep moving.\n\nCTA: Connect your integrations",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong execution. The draft nails the key message verbatim (\"your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update\") and maintains the requested practical, low-key tone throughout. Voice is appropriately \"we/you,\" language is plain and conversational, and all banned phrases are avoided. No exclamation points, no fear-based urgency, and no unqualified claims. The copy is concise and well-suited to email. No compliance disclaimers are needed (no certifications, SLAs, or data-handling claims referenced)."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: See Slack and calendar updates right on your board\n\nPreview text: Stop switching between apps to stay in the loop\n\nBody:\nYour team's Slack messages and calendar events are important. But checking three different places for the same update gets old fast.\n\nThe good news: your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update.\n\nConnect in seconds. Stay in one place. Keep moving.\n\nCTA: Connect your integrations",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong execution. The draft nails the key message verbatim (\"your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update\") and maintains the requested practical, low-key tone throughout. Voice is appropriately \"we/you,\" language is plain and conversational, and all banned phrases are avoided. No exclamation points, no fear-based urgency, and no unqualified claims. The copy is concise and well-suited to email. No compliance disclaimers are needed (no certifications, SLAs, or data-handling claims referenced)."
+      }
+    }
+  ]
+}

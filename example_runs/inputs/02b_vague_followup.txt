@@ -1,0 +1,12 @@
+Following up on the integrations request. Answers to your questions:
+
+- Objective: increase adoption of the new Slack and Google Calendar integrations among
+  existing customers, since usage data shows most accounts haven't connected either one
+  even though both shipped two months ago.
+- Audience: existing customers, specifically day-to-day board users (not admins) who
+  haven't connected an integration yet.
+- Key message: your Slack and calendar updates can show up directly on your Northbridge
+  board — no more checking three places for the same update.
+
+Channels: email and social. Deadline: no hard deadline, but we'd like drafts within two
+weeks. Tone: practical, low-key, not a big "launch."

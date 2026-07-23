@@ -1,0 +1,23 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: See where work actually gets stuck\n\nPreview text: The Team Analytics Dashboard shows you bottlenecks, not just task lists.\n\nBody:\nMost team dashboards show you assignments. You already know who has what on their plate.\n\nWhat you don't see: where work actually slows down. Which handoffs create delays. Where capacity gets stretched too thin.\n\nThe Team Analytics Dashboard changes that. It surfaces the bottlenecks hiding in your workflow\u2014the places where good work goes to wait.\n\nFor team leads and ops managers, that visibility means faster decisions. You can spot friction before it compounds, unblock dependencies, and keep momentum moving.\n\nTry it free with your existing account. See what you've been missing.\n\nCTA: Start your free trial",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong draft. Reading level is clear and direct (8th-grade or simpler). Voice is confident and specific without hype. The key message \"You can finally see where work actually gets stuck, not just where it's assigned\" is communicated in substance throughout, particularly in the opening and body copy. No banned words, no exclamation points, no fear-based urgency, no competitor disparagement. The factual deadline statement (\"July 24\") in the brief is not mentioned in the draft itself, which is appropriate for email body copy. The free trial mention is straightforward without pressure language. No compliance or security claims are made, so the disclaimer is not required. Copy flows naturally and avoids SaaS jargon."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: See where work actually gets stuck\n\nPreview text: The Team Analytics Dashboard shows you bottlenecks, not just task lists.\n\nBody:\nMost team dashboards show you assignments. You already know who has what on their plate.\n\nWhat you don't see: where work actually slows down. Which handoffs create delays. Where capacity gets stretched too thin.\n\nThe Team Analytics Dashboard changes that. It surfaces the bottlenecks hiding in your workflow\u2014the places where good work goes to wait.\n\nFor team leads and ops managers, that visibility means faster decisions. You can spot friction before it compounds, unblock dependencies, and keep momentum moving.\n\nTry it free with your existing account. See what you've been missing.\n\nCTA: Start your free trial",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong draft. Reading level is clear and direct (8th-grade or simpler). Voice is confident and specific without hype. The key message \"You can finally see where work actually gets stuck, not just where it's assigned\" is communicated in substance throughout, particularly in the opening and body copy. No banned words, no exclamation points, no fear-based urgency, no competitor disparagement. The factual deadline statement (\"July 24\") in the brief is not mentioned in the draft itself, which is appropriate for email body copy. The free trial mention is straightforward without pressure language. No compliance or security claims are made, so the disclaimer is not required. Copy flows naturally and avoids SaaS jargon."
+      }
+    }
+  ]
+}

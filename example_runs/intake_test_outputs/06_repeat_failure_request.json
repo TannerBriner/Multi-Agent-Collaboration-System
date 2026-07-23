@@ -1,0 +1,18 @@
+{
+  "outcome": "brief",
+  "brief": {
+    "campaign_name": "AI Task Prioritization Feature Launch",
+    "objective": "Drive interest in the new AI-powered task prioritization feature ahead of the fall product event",
+    "audience": "Existing customers who manage large boards (100+ open tasks), especially team leads frustrated with manual triage",
+    "key_message": "This is the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog",
+    "channels": [
+      "email"
+    ],
+    "tone": "energetic, forward-looking",
+    "deadline": null,
+    "constraints": "The exact phrase \"the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog\" must appear verbatim in deliverables as it has been approved by leadership",
+    "missing_fields": [
+      "deadline"
+    ]
+  }
+}

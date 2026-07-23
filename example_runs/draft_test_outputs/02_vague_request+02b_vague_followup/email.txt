@@ -1,0 +1,14 @@
+Subject: See your Slack and calendar updates right on your Northbridge board
+
+Preview text: No more switching between apps to stay in sync
+
+Body:
+Your Slack and calendar updates can show up directly on your Northbridge board – no more checking three places for the same update.
+
+If you're toggling between apps to catch notifications and stay aligned with your team, the new Slack and Google Calendar integrations can help. Connect either one (or both) and watch relevant updates flow straight into your workspace.
+
+It takes a few minutes to set up, and you'll spend less time context-switching. Your team stays in sync without the friction.
+
+Ready to try it?
+
+CTA: Connect an integration
