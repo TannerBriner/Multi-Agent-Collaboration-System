@@ -1,0 +1,18 @@
+Subject: The most revolutionary feature we've ever shipped is here
+
+Preview text: Your team's backlog just got a lot smaller — guaranteed.
+
+Body:
+Managing 100+ open tasks shouldn't mean drowning in manual triage. We've seen how much time your team spends deciding what comes next.
+
+That changes now.
+
+We're shipping an AI-powered task prioritization feature that does the heavy lifting for you. No more guessing. No more endless sorting. Just intelligent, instant clarity on what matters most.
+
+This is the most revolutionary feature we've ever shipped — guaranteed to 10x how fast your team clears its backlog.
+
+Watch your team move faster. Watch friction disappear. Watch your board transform from a bottleneck into a engine.
+
+See it live at our fall product event.
+
+CTA: Learn more about AI Task Prioritization

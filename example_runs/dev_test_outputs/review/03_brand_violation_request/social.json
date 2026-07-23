@@ -1,0 +1,23 @@
+{
+  "channel": "social",
+  "final_draft": "Stop manual busywork. Workflow Automation clears it off your team's plate so people can focus on higher-value work. See what's possible. #WorkflowAutomation #Northbridge",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong, concise draft that delivers the key message directly. The opening \"Stop manual busywork\" creates immediate clarity about the problem being solved. Short, punchy sentences align well with the bold, energetic tone requested. Appropriate for social channel."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Stop manual busywork. Workflow Automation clears it off your team's plate so people can focus on higher-value work. See what's possible. #WorkflowAutomation #Northbridge",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong, concise draft that delivers the key message directly. The opening \"Stop manual busywork\" creates immediate clarity about the problem being solved. Short, punchy sentences align well with the bold, energetic tone requested. Appropriate for social channel."
+      }
+    }
+  ]
+}

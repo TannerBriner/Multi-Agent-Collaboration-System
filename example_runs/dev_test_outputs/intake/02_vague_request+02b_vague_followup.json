@@ -1,0 +1,17 @@
+{
+  "outcome": "brief",
+  "brief": {
+    "campaign_name": "New Integrations Adoption",
+    "objective": "Increase adoption of the new Slack and Google Calendar integrations among existing customers who have not yet connected either integration",
+    "audience": "Existing customers \u2014 day-to-day board users (not admins) who haven't connected an integration yet",
+    "key_message": "Your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update",
+    "channels": [
+      "email",
+      "social"
+    ],
+    "deadline": "two weeks",
+    "tone": "practical, low-key",
+    "constraints": null,
+    "missing_fields": []
+  }
+}

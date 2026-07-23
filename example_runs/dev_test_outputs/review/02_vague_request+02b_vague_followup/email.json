@@ -1,0 +1,23 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: See Slack and calendar updates right on your board\n\nPreview text: Stop context-switching between three apps\n\nBody:\nYou're already using Northbridge to manage your work. Your Slack messages and calendar events are somewhere else entirely.\n\nThat friction just got easier to fix.\n\nYour Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update. Connect either integration in a few clicks, and stay in sync without the mental load of jumping between tools.\n\nIt's the small streamlining that saves you time every single day.\n\nCTA: Connect an integration",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong draft. The key message is communicated verbatim in the body (\"Your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update\"). Tone is practical and low-key. Reading level is accessible. No banned words, no exclamation points, no fear-based urgency, and no unqualified performance claims. The preview text and headline work well for the channel. All brand guide rules are met."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: See Slack and calendar updates right on your board\n\nPreview text: Stop context-switching between three apps\n\nBody:\nYou're already using Northbridge to manage your work. Your Slack messages and calendar events are somewhere else entirely.\n\nThat friction just got easier to fix.\n\nYour Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update. Connect either integration in a few clicks, and stay in sync without the mental load of jumping between tools.\n\nIt's the small streamlining that saves you time every single day.\n\nCTA: Connect an integration",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong draft. The key message is communicated verbatim in the body (\"Your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update\"). Tone is practical and low-key. Reading level is accessible. No banned words, no exclamation points, no fear-based urgency, and no unqualified performance claims. The preview text and headline work well for the channel. All brand guide rules are met."
+      }
+    }
+  ]
+}

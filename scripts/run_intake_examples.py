@@ -18,7 +18,7 @@ sys.path.insert(0, str(ROOT))
 from src.intake_agent import run_intake  # noqa: E402
 
 INPUTS_DIR = ROOT / "example_runs" / "inputs"
-OUTPUT_DIR = ROOT / "example_runs" / "intake_test_outputs"
+OUTPUT_DIR = ROOT / "example_runs" / "dev_test_outputs" / "intake"
 
 # Each tuple is one intake run; multiple filenames simulate a multi-message thread.
 RUNS = [

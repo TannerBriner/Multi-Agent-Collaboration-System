@@ -1,0 +1,23 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: See where work actually gets stuck\n\nPreview text: The Team Analytics Dashboard shows you bottlenecks others miss\n\nBody:\nYou can finally see where work actually gets stuck, not just where it's assigned.\n\nMost team leads track tasks on a spreadsheet or dashboard\u2014but rarely know why work slows down. The Team Analytics Dashboard cuts through the noise. See exactly where bottlenecks form. Identify which handoffs delay delivery. Spot patterns that assignments alone never reveal.\n\nBuilt for ops managers and team leads who need real insight, not guesses.\n\nStart a free trial today and see what your team's actually doing before Q4 planning kicks in.\n\nCTA: Activate your free trial",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": null
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: See where work actually gets stuck\n\nPreview text: The Team Analytics Dashboard shows you bottlenecks others miss\n\nBody:\nYou can finally see where work actually gets stuck, not just where it's assigned.\n\nMost team leads track tasks on a spreadsheet or dashboard\u2014but rarely know why work slows down. The Team Analytics Dashboard cuts through the noise. See exactly where bottlenecks form. Identify which handoffs delay delivery. Spot patterns that assignments alone never reveal.\n\nBuilt for ops managers and team leads who need real insight, not guesses.\n\nStart a free trial today and see what your team's actually doing before Q4 planning kicks in.\n\nCTA: Activate your free trial",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": null
+      }
+    }
+  ]
+}

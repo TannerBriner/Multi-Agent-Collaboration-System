@@ -1,0 +1,23 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: Your trial is extended two extra weeks\u2014at no cost\n\nPreview text: No action needed. We've got you covered.\n\nBody:\nWe're extending your trial by two extra weeks at no cost.\n\nYou don't need to do anything. Your account will automatically continue, giving you more time to explore at your own pace.\n\nWe're making this change to ensure you have a smooth experience during our platform migration. We want you to have the space you need to get the most out of your trial without worrying about your access.\n\nYour trial end date has been updated in your account settings.\n\nCTA: View your account details",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "The draft is clean and well-aligned with the brief. Voice is reassuring and simple as requested. No banned words, no exclamation points, no fear-based urgency, no competitor disparagement, no unqualified claims. Reading level is straightforward. The key message\u2014\"Your trial is extended two extra weeks at no cost \u2014 no action needed on your part\"\u2014appears verbatim in the subject line and is reinforced in the opening body paragraph. The factual tone matches the legal constraint noted in the brief. No disclaimer is required here since there are no security certifications, uptime figures, or data-handling claims referenced."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: Your trial is extended two extra weeks\u2014at no cost\n\nPreview text: No action needed. We've got you covered.\n\nBody:\nWe're extending your trial by two extra weeks at no cost.\n\nYou don't need to do anything. Your account will automatically continue, giving you more time to explore at your own pace.\n\nWe're making this change to ensure you have a smooth experience during our platform migration. We want you to have the space you need to get the most out of your trial without worrying about your access.\n\nYour trial end date has been updated in your account settings.\n\nCTA: View your account details",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "The draft is clean and well-aligned with the brief. Voice is reassuring and simple as requested. No banned words, no exclamation points, no fear-based urgency, no competitor disparagement, no unqualified claims. Reading level is straightforward. The key message\u2014\"Your trial is extended two extra weeks at no cost \u2014 no action needed on your part\"\u2014appears verbatim in the subject line and is reinforced in the opening body paragraph. The factual tone matches the legal constraint noted in the brief. No disclaimer is required here since there are no security certifications, uptime figures, or data-handling claims referenced."
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "channel": "intranet",
+  "final_draft": "Headline: You can finally see where work actually gets stuck, not just where it's assigned\n\nBody:\nThe Team Analytics Dashboard add-on gives you visibility into the real bottlenecks in your workflow\u2014not just task assignments or project status, but the actual points where work slows down or stalls.\n\nMost ops managers and team leads work with incomplete information. You can see that a task is assigned to someone, but the dashboard shows you *why* it's taking longer than expected. Is it waiting on a dependency? Blocked by a resource constraint? Caught in a handoff between teams? These friction points are invisible in standard project tracking, but they're exactly where your efficiency gains live.\n\nThe dashboard pulls data from your existing workflow and surfaces patterns: which work items consistently slow down, which transitions between stages create delays, which team members or departments are bottlenecks. Armed with that specificity, you can actually intervene\u2014reassign resources, change processes, or unblock dependencies with confidence instead of guessing.\n\nYour Q4 renewal is a good time to evaluate whether this add-on fits your team's needs. You can test the dashboard and see firsthand whether it surfaces the friction points you've been managing around. The trial gives you the information you need to decide whether it's worth adding to your package.",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong draft. Headline and opening match the key message verbatim. Copy uses plain language (\"friction points,\" \"bottlenecks\") instead of jargon, stays confident without hype, avoids all banned words, contains no exclamation points, avoids fear/urgency framing (Q4 renewal mention is factual, not pressured), and reads at an accessible level. No security/compliance claims requiring the disclaimer. Minor note: \"where work actually gets stuck\" recurs naturally across the piece and reinforces the key message effectively."
+  },
+  "retried": true,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Headline: See Where Work Actually Gets Stuck\n\nBody:\nWork doesn't stall because tasks aren't assigned\u2014it stalls because visibility stops there. Your team knows who owns what, but do you know where bottlenecks actually live?\n\nThe Team Analytics Dashboard gives you that missing piece. Instead of guessing why projects slip or chasing status updates across spreadsheets and Slack, you get real insight into where work genuinely gets stuck: handoffs that slow down, steps that pile up, dependencies that block progress.\n\nFor team leads and ops managers, this changes how you unblock work. You stop reacting to delays and start seeing them coming. You spot patterns\u2014which processes need attention, which team members are overloaded, which workflows need redesign. That clarity lets you act faster and smarter.\n\nThis add-on is built for existing customers like you. It integrates directly with your current setup, so there's no learning curve or setup burden. Activate a trial now and run it through your actual workflows. See what bottlenecks emerge when you have real visibility. See how much faster decisions move when you're not working blind.\n\nWith Q4 renewals coming, this is the moment to test whether the dashboard solves problems you've already been living with. A short trial period gives you everything you need to know.",
+      "review": {
+        "verdict": "fail",
+        "key_message_present": true,
+        "violations": [
+          {
+            "rule": "Banned words and phrases",
+            "quote": "This is the moment to test whether the dashboard solves problems you've already been living with. A short trial period gives you everything you need to know.",
+            "suggested_fix": "Remove 'A short trial period' or replace with a factual deadline statement (e.g., 'Trial ends July 24') to avoid pressure framing. The current phrasing implies urgency tied to renewal timing."
+          },
+          {
+            "rule": "Urgency and fear-based language",
+            "quote": "With Q4 renewals coming, this is the moment to test whether the dashboard solves problems you've already been living with.",
+            "suggested_fix": "Reframe to remove the implicit pressure: 'Test the dashboard before your Q4 renewal decision' or simply 'Your Q4 renewal is a good time to evaluate this add-on.' State renewal timing factually without 'this is the moment' urgency framing."
+          }
+        ],
+        "notes": "The draft is strong overall\u2014it's clear, specific, and avoids jargon. The headline and body directly communicate the key message (visibility into where work gets stuck, not just assignment). Reading level is accessible. However, the closing two sentences create a subtle pressure effect by linking the trial window to Q4 renewal timing and using 'this is the moment' language, which violates the urgency rule even though no hard deadline or scarcity phrase is used. Suggested fix maintains the renewal context while removing the pressure framing.\""
+      }
+    },
+    {
+      "draft": "Headline: You can finally see where work actually gets stuck, not just where it's assigned\n\nBody:\nThe Team Analytics Dashboard add-on gives you visibility into the real bottlenecks in your workflow\u2014not just task assignments or project status, but the actual points where work slows down or stalls.\n\nMost ops managers and team leads work with incomplete information. You can see that a task is assigned to someone, but the dashboard shows you *why* it's taking longer than expected. Is it waiting on a dependency? Blocked by a resource constraint? Caught in a handoff between teams? These friction points are invisible in standard project tracking, but they're exactly where your efficiency gains live.\n\nThe dashboard pulls data from your existing workflow and surfaces patterns: which work items consistently slow down, which transitions between stages create delays, which team members or departments are bottlenecks. Armed with that specificity, you can actually intervene\u2014reassign resources, change processes, or unblock dependencies with confidence instead of guessing.\n\nYour Q4 renewal is a good time to evaluate whether this add-on fits your team's needs. You can test the dashboard and see firsthand whether it surfaces the friction points you've been managing around. The trial gives you the information you need to decide whether it's worth adding to your package.",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong draft. Headline and opening match the key message verbatim. Copy uses plain language (\"friction points,\" \"bottlenecks\") instead of jargon, stays confident without hype, avoids all banned words, contains no exclamation points, avoids fear/urgency framing (Q4 renewal mention is factual, not pressured), and reads at an accessible level. No security/compliance claims requiring the disclaimer. Minor note: \"where work actually gets stuck\" recurs naturally across the piece and reinforces the key message effectively."
+      }
+    }
+  ]
+}

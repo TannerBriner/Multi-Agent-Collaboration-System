@@ -1,0 +1,23 @@
+{
+  "channel": "social",
+  "final_draft": "Your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update. #Northbridge #Integrations",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "This is a social post. It's concise, uses plain language, and directly echoes the brief's key message verbatim. No brand guide violations detected. Tone is practical and low-key as requested. Reading level is appropriate."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Your Slack and calendar updates can show up directly on your Northbridge board \u2014 no more checking three places for the same update. #Northbridge #Integrations",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "This is a social post. It's concise, uses plain language, and directly echoes the brief's key message verbatim. No brand guide violations detected. Tone is practical and low-key as requested. Reading level is appropriate."
+      }
+    }
+  ]
+}

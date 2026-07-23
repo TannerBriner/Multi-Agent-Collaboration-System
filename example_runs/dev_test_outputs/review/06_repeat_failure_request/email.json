@@ -1,0 +1,80 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: The most powerful feature we've ever shipped\nPreview text: See how your team clears its backlog faster\n\nBody:\nManaging 100+ open tasks doesn't have to mean endless manual triage. Our new AI-powered task prioritization feature is here to transform how your team works.\n\nIntelligent automation does the heavy lifting\u2014surfacing what matters most, so your team focuses on what moves the needle. No more guesswork. No more buried priorities.\n\nThis is the most powerful feature we've ever shipped \u2014 dramatically speeds up how fast your team clears its backlog.\n\nTeam leads juggling sprawling boards deserve better. This is it.\n\nCTA: Learn more about AI Task Prioritization",
+  "final_review": {
+    "verdict": "fail",
+    "key_message_present": false,
+    "violations": [
+      {
+        "rule": "Key message rule",
+        "quote": "This is the most powerful feature we've ever shipped \u2014 dramatically speeds up how fast your team clears its backlog.",
+        "suggested_fix": "Replace with the brief's exact key message: \"This is the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog\""
+      },
+      {
+        "rule": "Banned words and phrases",
+        "quote": "This is the most powerful feature we've ever shipped",
+        "suggested_fix": "Use the exact approved phrase from the brief: \"the most revolutionary feature we've ever shipped\""
+      },
+      {
+        "rule": "Banned words and phrases",
+        "quote": "dramatically speeds up how fast your team clears its backlog",
+        "suggested_fix": "Replace with the exact phrasing from the brief: \"guaranteed to 10x how fast your team clears its backlog\""
+      }
+    ],
+    "notes": "The brief explicitly requires the exact phrase \\\"the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog\\\" to appear verbatim as it has been approved by leadership. The draft significantly deviates from this approved key message by substituting \\\"most powerful\\\" for \\\"most revolutionary\\\" and removing both the \\\"guaranteed\\\" and \\\"10x\\\" elements. While the draft avoids the exclamation point rule and maintains a reasonable tone, the deliberate deviation from the pre-approved key message is a critical failure in a constrained launch scenario.\""
+  },
+  "retried": true,
+  "needs_human_attention": true,
+  "attempts": [
+    {
+      "draft": "Subject: The most revolutionary feature we've ever shipped\u2014see it first\n\nPreview text: Guaranteed to 10x how fast your team clears its backlog\n\nBody:\nYour team's backlog just got a massive upgrade.\n\nWe've built an AI-powered task prioritization feature that cuts through the noise. No more manual triage. No more guessing what matters most. Just intelligent, instant clarity on what to tackle next\u2014across boards with hundreds of tasks.\n\nThis is the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog.\n\nTeam leads managing sprawling workstreams have already seen the difference: faster decisions, less friction, real momentum. And you'll experience it first at our fall product event.\n\nReady to see what's next?\n\nCTA: Get early access to the feature demo",
+      "review": {
+        "verdict": "fail",
+        "key_message_present": true,
+        "violations": [
+          {
+            "rule": "Banned words and phrases",
+            "quote": "revolutionary",
+            "suggested_fix": "Remove 'revolutionary' from the subject line and body. The word is explicitly banned in the brand guide. Consider rephrasing as: 'The most powerful feature we've ever shipped' or 'Our biggest feature launch yet'"
+          },
+          {
+            "rule": "Banned words and phrases",
+            "quote": "guaranteed to 10x how fast your team clears its backlog",
+            "suggested_fix": "Remove both 'guaranteed' and the unqualified '10x' multiplier claim. If there is actual data supporting a specific productivity gain, cite it. Otherwise, rephrase as: 'Dramatically speeds up how fast your team clears its backlog' or provide sourced data for any multiplier claim."
+          },
+          {
+            "rule": "Punctuation",
+            "quote": "Ready to see what's next?",
+            "suggested_fix": "Remove the question mark and rephrase without punctuation emphasis. For example: 'See what's next' or simply remove the line if it functions as a rhetorical lead-in to the CTA."
+          }
+        ],
+        "notes": "The brief itself contains a constraint that requires the exact banned phrases to appear verbatim. This creates a conflict between the brief's \"key_message\" constraint and the brand guide's core rules. The drafter correctly included the key message as instructed by the brief, but in doing so, violated multiple non-negotiable brand rules (banned words, unqualified claims). This signals a brief approval issue upstream, not a drafter error. However, per the review rules, the draft fails because it violates brand guide rules regardless of brief direction. Leadership sign-off on the brief does not override the brand guide's hard rules."
+      }
+    },
+    {
+      "draft": "Subject: The most powerful feature we've ever shipped\nPreview text: See how your team clears its backlog faster\n\nBody:\nManaging 100+ open tasks doesn't have to mean endless manual triage. Our new AI-powered task prioritization feature is here to transform how your team works.\n\nIntelligent automation does the heavy lifting\u2014surfacing what matters most, so your team focuses on what moves the needle. No more guesswork. No more buried priorities.\n\nThis is the most powerful feature we've ever shipped \u2014 dramatically speeds up how fast your team clears its backlog.\n\nTeam leads juggling sprawling boards deserve better. This is it.\n\nCTA: Learn more about AI Task Prioritization",
+      "review": {
+        "verdict": "fail",
+        "key_message_present": false,
+        "violations": [
+          {
+            "rule": "Key message rule",
+            "quote": "This is the most powerful feature we've ever shipped \u2014 dramatically speeds up how fast your team clears its backlog.",
+            "suggested_fix": "Replace with the brief's exact key message: \"This is the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog\""
+          },
+          {
+            "rule": "Banned words and phrases",
+            "quote": "This is the most powerful feature we've ever shipped",
+            "suggested_fix": "Use the exact approved phrase from the brief: \"the most revolutionary feature we've ever shipped\""
+          },
+          {
+            "rule": "Banned words and phrases",
+            "quote": "dramatically speeds up how fast your team clears its backlog",
+            "suggested_fix": "Replace with the exact phrasing from the brief: \"guaranteed to 10x how fast your team clears its backlog\""
+          }
+        ],
+        "notes": "The brief explicitly requires the exact phrase \\\"the most revolutionary feature we've ever shipped \u2014 guaranteed to 10x how fast your team clears its backlog\\\" to appear verbatim as it has been approved by leadership. The draft significantly deviates from this approved key message by substituting \\\"most powerful\\\" for \\\"most revolutionary\\\" and removing both the \\\"guaranteed\\\" and \\\"10x\\\" elements. While the draft avoids the exclamation point rule and maintains a reasonable tone, the deliberate deviation from the pre-approved key message is a critical failure in a constrained launch scenario.\""
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Headline: You can finally see where work actually gets stuck, not just where it's assigned
+
+Body:
+The Team Analytics Dashboard gives you visibility into the parts of your workflow that actually matter—the bottlenecks, delays, and friction points that slow delivery.
+
+Most project tracking tools show you what's assigned to whom. This dashboard shows you something different: where work actually stalls. See which stages consume unexpected time. Identify blockers before they cascade. Understand capacity constraints your team faces daily but rarely quantifies.
+
+For team leads and ops managers, that difference is significant. You get the data you need to unblock your teams, optimize workflows, and hit deadlines with fewer surprises. Instead of reacting to missed dates, you spot the real obstacles early.
+
+The Team Analytics Dashboard is available now as a trial add-on for your existing account. If you're responsible for keeping work moving—tracking handoffs, managing dependencies, or reporting on delivery—this is built for how your team actually works.
+
+Activation is straightforward. Your account team can enable the trial directly, and you'll have immediate access to analytics on team velocity, stage duration, and workflow patterns specific to your operations.
+
+This is particularly valuable as you head into renewal planning. Understanding where your tools create friction—and where they create clarity—informs smarter decisions about your platform investments.
+
+Start your trial today and see what a real bottleneck analysis reveals about your workflow.

@@ -1,0 +1,23 @@
+{
+  "channel": "social",
+  "final_draft": "You can finally see where work actually gets stuck, not just where it's assigned. Try Team Analytics Dashboard. #ProductivityInsights #Analytics",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Clean, concise social post. Reads at appropriate level, uses we/you voice implicitly (addressing reader directly), includes the key message verbatim as the opening line, and avoids all banned words, exclamation points, and pressure language. Good channel fit for social."
+  },
+  "retried": false,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "You can finally see where work actually gets stuck, not just where it's assigned. Try Team Analytics Dashboard. #ProductivityInsights #Analytics",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Clean, concise social post. Reads at appropriate level, uses we/you voice implicitly (addressing reader directly), includes the key message verbatim as the opening line, and avoids all banned words, exclamation points, and pressure language. Good channel fit for social."
+      }
+    }
+  ]
+}

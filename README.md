@@ -192,7 +192,10 @@ python scripts/run_review_examples.py     # intake + drafting + review/retry, no
 brand/brand_guide.md        Brand guide the reviewer checks every draft against
 docs/brief_schema.md        The structured brief contract between intake and drafting
 example_runs/inputs/        The 6 synthetic test requests
-example_runs/<slug>/        Generated approval packages (one markdown file per run)
+example_runs/<slug>/        Generated approval packages (one markdown file per run) -- the product
+example_runs/dev_test_outputs/   Per-stage raw output (intake/drafting/review) from testing each
+                             agent in isolation before wiring up the full pipeline -- evidence
+                             of the testing process, not itself the deliverable
 src/client.py               Shared Anthropic client + model default (Haiku)
 src/schemas.py               Tool schemas: submit_brief, ask_clarifying_questions, submit_review
 src/intake_agent.py          Stage 1: extract a brief, or stop and ask

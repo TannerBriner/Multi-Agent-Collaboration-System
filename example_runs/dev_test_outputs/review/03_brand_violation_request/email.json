@@ -1,0 +1,43 @@
+{
+  "channel": "email",
+  "final_draft": "Subject: Stop wasting time on manual work. Automate it.\nPreview text: Workflow Automation clears busywork off your plate so your team can focus on what matters.\n\nBody:\nManual tasks take up your team's day. Workflow Automation takes them off your plate.\n\nWhen your people spend hours on repetitive work, they're not solving problems or driving results. Workflow Automation handles the busywork automatically\u2014freeing your team to focus on higher-value work that actually moves the needle.\n\nSee how teams are reclaiming time and energy with intelligent automation. Watch a quick demo to discover how Workflow Automation simplifies your processes and keeps your people focused on what only they can do.\n\nReady to see the difference?\n\nCTA: Request a demo",
+  "final_review": {
+    "verdict": "pass",
+    "key_message_present": true,
+    "violations": [],
+    "notes": "Strong execution. The draft effectively translates the brief's key message into bold, energetic copy that works for email. Short, punchy sentences keep reading level accessible. The preview text mirrors the key message nearly verbatim, and the body reinforces the core idea (freeing the team from manual work to focus on higher-value work) without softening it. The language is confident and specific\u2014describes outcomes (teams reclaiming time and energy, people focused on what only they can do) without hype or unqualified claims. CTA is clear and low-pressure."
+  },
+  "retried": true,
+  "needs_human_attention": false,
+  "attempts": [
+    {
+      "draft": "Subject: Stop wasting time on manual work\u2014automate it\n\nPreview text: Your team deserves better than busywork. See how.\n\nBody:\nManual tasks are eating your team's day. Data entry. Approvals. Handoffs. Repetitive processes that add zero value but consume hours.\n\nWorkflow Automation clears manual busywork off your team's plate so people can focus on higher-value work.\n\nThat's time reclaimed for strategy, creativity, and the work that actually moves your business forward. No more bottlenecks. No more context-switching. Just streamlined processes that run while your team does what they do best.\n\nReady to see it in action?\n\nCTA: Request a demo",
+      "review": {
+        "verdict": "fail",
+        "key_message_present": true,
+        "violations": [
+          {
+            "rule": "Punctuation",
+            "quote": "Stop wasting time on manual work\u2014automate it",
+            "suggested_fix": "Change the subject line to remove the em dash or rephrase without punctuation emphasis. Example: 'Stop wasting time on manual work. Automate it.' or 'Automate manual work and reclaim your team's time'"
+          },
+          {
+            "rule": "Urgency and fear-based language",
+            "quote": "Manual tasks are eating your team's day.",
+            "suggested_fix": "Reframe to focus on the opportunity rather than the problem. Example: 'Manual tasks take up your team's day. Workflow Automation takes them off your plate.'"
+          }
+        ],
+        "notes": "The draft captures the key message clearly and uses plain language throughout. The tone is energetic as requested. However, the fear-based framing ('eating your team's day,' 'wasting time,' 'zero value') is borderline alarmist and leans on problem-creation rather than solution-focus per the brand voice guidance. The punctuation violation is a clear breach of the no-punctuation rule."
+      }
+    },
+    {
+      "draft": "Subject: Stop wasting time on manual work. Automate it.\nPreview text: Workflow Automation clears busywork off your plate so your team can focus on what matters.\n\nBody:\nManual tasks take up your team's day. Workflow Automation takes them off your plate.\n\nWhen your people spend hours on repetitive work, they're not solving problems or driving results. Workflow Automation handles the busywork automatically\u2014freeing your team to focus on higher-value work that actually moves the needle.\n\nSee how teams are reclaiming time and energy with intelligent automation. Watch a quick demo to discover how Workflow Automation simplifies your processes and keeps your people focused on what only they can do.\n\nReady to see the difference?\n\nCTA: Request a demo",
+      "review": {
+        "verdict": "pass",
+        "key_message_present": true,
+        "violations": [],
+        "notes": "Strong execution. The draft effectively translates the brief's key message into bold, energetic copy that works for email. Short, punchy sentences keep reading level accessible. The preview text mirrors the key message nearly verbatim, and the body reinforces the core idea (freeing the team from manual work to focus on higher-value work) without softening it. The language is confident and specific\u2014describes outcomes (teams reclaiming time and energy, people focused on what only they can do) without hype or unqualified claims. CTA is clear and low-pressure."
+      }
+    }
+  ]
+}
