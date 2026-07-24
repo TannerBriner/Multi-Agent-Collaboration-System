@@ -40,6 +40,7 @@ SUBMIT_BRIEF_TOOL = {
             "channels": {
                 "type": "array",
                 "items": {"type": "string", "enum": ["email", "social", "intranet"]},
+                "minItems" : 1,
                 "description": (
                     "Channels to produce. If the request does not explicitly restrict "
                     "channels, include all three. If it explicitly limits scope (e.g. "

@@ -75,7 +75,10 @@ def run_intake(request_text: str) -> dict:
     call = tool_calls[0]  # by design, exactly one tool call is expected
 
     if call.name == "submit_brief":
+        if call.input["channels"] == []:
+          raise RuntimeError("Intake agent response contained no channels.")
         return {"outcome": "brief", "brief": call.input}
+    
     if call.name == "ask_clarifying_questions":
         return {"outcome": "questions", "questions": call.input["questions"]}
 
