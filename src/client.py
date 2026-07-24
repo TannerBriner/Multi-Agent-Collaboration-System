@@ -19,11 +19,12 @@ DEFAULT_MODEL = "claude-haiku-4-5-20251001"
 
 def get_client() -> Anthropic:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
+
     if not api_key:
         raise RuntimeError(
             "ANTHROPIC_API_KEY is not set. Copy .env.example to .env and add your key."
         )
-    return Anthropic(api_key=api_key)
+    return Anthropic(api_key=api_key, max_retries=3)
 
 
 def get_model() -> str:
