@@ -99,7 +99,8 @@ def draft_channel(channel: str, brief: dict, revision_feedback: str | None = Non
         system=_build_system_prompt(channel),
         messages=[{"role": "user", "content": user_content}],
     )
-
+    if response.stop_reason == "max_tokens": 
+        raise RuntimeError("Drafting agent response was truncated due to reaching max tokens.")
     return "".join(
         block.text for block in response.content if block.type == "text"
     ).strip()

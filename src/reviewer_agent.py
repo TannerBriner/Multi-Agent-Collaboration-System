@@ -70,7 +70,8 @@ def run_review(draft: str, brief: dict) -> dict:
         tool_choice={"type": "any"},
         messages=[{"role": "user", "content": user_content}],
     )
-
+    if response.stop_reason == "max_tokens": 
+        raise RuntimeError("Reviewer agent response was truncated due to reaching max tokens.")
     tool_calls = [block for block in response.content if block.type == "tool_use"]
     if not tool_calls:
         raise RuntimeError("Reviewer agent responded without calling submit_review.")

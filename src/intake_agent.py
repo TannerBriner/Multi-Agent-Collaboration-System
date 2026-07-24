@@ -66,7 +66,8 @@ def run_intake(request_text: str) -> dict:
         tool_choice={"type": "any"},  # force a tool call, never plain prose
         messages=[{"role": "user", "content": request_text}],
     )
-
+    if response.stop_reason == "max_tokens": 
+        raise RuntimeError("Intake agent response was truncated due to reaching max tokens.")
     tool_calls = [block for block in response.content if block.type == "tool_use"]
     if not tool_calls:
         raise RuntimeError("Intake agent responded without calling a tool.")
