@@ -19,7 +19,9 @@ CREATE TABLE IF NOT EXISTS runs (
     slug TEXT NOT NULL,
     started_at TEXT NOT NULL,
     model TEXT NOT NULL,
-    intake_outcome TEXT NOT NULL,          -- 'brief' | 'questions'
+    status TEXT,                            -- 'success' | 'error' 
+    error_detail TEXT,                      
+    intake_outcome TEXT NOT NULL,           -- 'brief' | 'questions' | 'error'
     channels TEXT,                          -- JSON list, null if intake_outcome='questions'
     first_pass_verdicts TEXT,               -- JSON {channel: "pass"|"fail"}
     final_verdicts TEXT,                    -- JSON {channel: "pass"|"fail"}
@@ -44,6 +46,8 @@ def log_run(
     slug: str,
     started_at,
     model: str,
+    status: str,
+    error_detail: str,
     intake_outcome: str,
     channel_results: list[dict] | None,
     intake_duration: float,
@@ -80,17 +84,19 @@ def log_run(
         conn.execute(
             """
             INSERT OR REPLACE INTO runs (
-                run_id, slug, started_at, model, intake_outcome, channels,
+                run_id, slug, started_at, model, status, error_detail, intake_outcome, channels,
                 first_pass_verdicts, final_verdicts, key_message_present,
                 retry_counts, needs_human_attention,
                 intake_duration_seconds, total_duration_seconds
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 run_id,
                 slug,
                 started_at.isoformat(),
                 model,
+                status,
+                error_detail,
                 intake_outcome,
                 channels,
                 first_pass_verdicts,

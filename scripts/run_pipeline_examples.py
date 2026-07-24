@@ -46,6 +46,10 @@ def main() -> None:
 
         if result["outcome"] == "questions":
             print(f"  intake stopped -- approval package: {result['package_path']}")
+
+        elif result["outcome"] == "error":
+            print(f" error: {result['error']}")
+
         else:
             summary = ", ".join(
                 f"{r['channel']}={r['final_review']['verdict']}"
